@@ -1,1 +1,114 @@
 
+body{
+	margin:0;
+	padding:0;
+	background-image:url(images/u0.png);
+	background-repeat:no-repeat;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-size:cover;
+	width:1350px;
+	height:650px;
+}
+.header{
+	text-align:center;
+	margin-top:20px;
+}
+.header .photo{
+	width:340px;
+	height:169px;
+}
+.header .heng{
+	width:296px;
+	height:1px;
+}
+.header span{
+	width:281px;
+	height:37px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-size: 28px;
+    color:#333;
+    position:relative;
+    top:20px;
+}
+.body{
+	width:100%;
+	margin-top:45px;
+}
+img{
+	width:140px;
+	height:140px;
+	border:none;
+}
+.bigul{
+	position:relative;
+	left:260px;
+}
+.bigul .bigli{
+	float:left;
+	display:inline-block;
+	text-align:center;
+	padding:23px;
+}
+ul li ul li{ 
+	float:none; 
+	border-left:none; 
+	margin-top:2px;
+	 
+} 
+ul li ul li .one{
+    position:relative;
+    top:10px;
+    left:10px;
+
+}
+ul li ul li .two{
+	position:relative;
+	top:10px;
+	right:370px;
+}
+ul li ul{ 
+    list-style:none;  
+	display:none;  
+	position:absolute;
+}
+ ul li:hover ul{
+    display:block;
+}
+
+ul li ul li a{
+	text-decoration:none;
+	color:#000;
+	display:block;
+	border:1px solid #000;
+	border-radius:115px;
+	padding:10px;
+	margin:5px;
+	position:relative;
+	top:-10px;
+	right:37px;
+}
+ul li p{
+	font-family: "微软雅黑 Regular","微软雅黑";
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    margin:10px;
+}
+ul li ul li div{
+	font-family: "微软雅黑 Regular","微软雅黑";
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer{
+	position:absolute;
+	top:630px;
+	right:535px;
+}
+.footer span{
+	color: #cccccc;
+    font-family: "微软雅黑 Regular","微软雅黑";
+    font-size: 12px;
+    font-weight: 400;
+}
